@@ -25,7 +25,7 @@ export default function Player({ initialName, symbol }) {
         <li>
             <span className="player">
                 {editablePlayerName}
-                <span className="player-name">
+                <span className="player-symbol">
                     {symbol}
                 </span>
             </span>
